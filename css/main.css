@@ -679,6 +679,12 @@ header {
     margin: 0 auto;
 }
 
+@media only screen and (max-width: 992px) {
+    .c-carousel {
+        width: 80%;
+    }
+}
+
 .c-carousel__inner {
     overflow: hidden;
     height: 100%;
@@ -688,6 +694,7 @@ header {
 .c-carousel__content {
     display: inline-flex;
     height: 100%;
+    transition: all .5s;
 }
 
 .c-card {
@@ -738,4 +745,12 @@ header {
 
 .c-carousel__buttons .c-carousel__button.c-carousel--next {
     right: -2.5rem;
+}
+
+.h-show {
+    display: block;
+}
+
+.h-hide {
+    display: none;
 }
