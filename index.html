@@ -206,64 +206,57 @@
     </div>
 
     <!-- Contact -->
-    <div class="container mt-3" id="contact">
-        <div class="row">
-            <div class="col d-flex flex-wrap justify-content-center">
-                <h1 class="align-self-center mx-1 section_title">Opere</h1>
-            </div>
-            <div class="col-md-12 w-100">
-                <div class="row">
-                    <div class="col-md-8 offset-md-2 w-100">
-                        <form class="p-4 form">
-                            <div class="sentConfirm">
-                                <p class="text-center">Thank you!</p>
-                                <button type="button" class="btn btn-primary one_more">
-                                    Write another message
-                                </button>
-                            </div>
-
-                            <div class="form_row">
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1">Email</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1"
-                                        aria-describedby="emailHelp" placeholder="Your email" name="email">
-                                    <span data-field="email" class="error hide"></span>
-                                </div>
-                                <div class="form-group">
-                                    <label for="name">Name</label>
-                                    <input type="text" class="form-control" id="name" placeholder="Your name"
-                                        name="name">
-                                    <span data-field="name" class="error hide"></span>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="message">Message</label>
-                                <textarea class="form-control rounded-2" id="message" name="message" rows="3"
-                                    placeholder="Your message"></textarea>
-                                <span data-field="message" class="error hide"></span>
-                            </div>
-                            <div class="row">
-                                <div class="form-group col-md-7 col-sm-12">
-                                    <label>Service</label>
-                                    <select class="custom-select" name="service">
-                                        <option value="0" selected>Service 1</option>
-                                        <option value="1">Service 2</option>
-                                        <option value="2">Service 3</option>
-                                        <option value="3">Service 4</option>
-                                        <option value="4">Service 5</option>
-                                    </select>
-                                </div>
-                                <div class="form-group col-md-5 col-sm-12">
-                                    <label for="phone">Phone number</label>
-                                    <input class="form-control rounded-0" id="phone" name="phone"
-                                        placeholder="Your phone number">
-                                    <span data-field="phone" class="error hide"></span>
-                                </div>
-                            </div>
-                            <button type="submit" class="btn btn-block mb-2 btn-primary">Send</button>
-                        </form>
+    <div class="mt-3" id="contact">
+        <div class="d-flex flex-wrap justify-content-center">
+            <h1 class="align-self-center mx-1 section_title">Opere</h1>
+        </div>
+        <div class="c-carousel">
+            <div class="c-carousel__inner">
+                <div class="c-carousel__content">
+                    <div class="c-card">
+                        <div class="c-card__inner">
+                            content
+                        </div>
+                    </div>
+                    <div class="c-card">
+                        <div class="c-card__inner">
+                            content
+                        </div>
+                    </div>
+                    <div class="c-card">
+                        <div class="c-card__inner">
+                            content
+                        </div>
+                    </div>
+                    <div class="c-card">
+                        <div class="c-card__inner">
+                            content
+                        </div>
+                    </div>
+                    <div class="c-card">
+                        <div class="c-card__inner">
+                            content
+                        </div>
+                    </div>
+                    <div class="c-card">
+                        <div class="c-card__inner">
+                            content
+                        </div>
+                    </div>
+                    <div class="c-card">
+                        <div class="c-card__inner">
+                            content
+                        </div>
                     </div>
                 </div>
+            </div>
+            <div class="c-carousel__buttons">
+                <button class="c-carousel__button c-carousel--prev">
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+                <button class="c-carousel__button c-carousel--next">
+                    <i class="fas fa-arrow-right"></i>
+                </button>
             </div>
         </div>
     </div>
@@ -395,16 +388,20 @@
         <div class="footer-copyright text-center py-1"></div>
     </footer>
 
-
-    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.12.0/validate.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
+    
     <script src="./js/anim.js"></script>
-    <script src="./js/main.js"></script>
+    
+    <script type="module" src="./js/second-carousel.js"></script>
+    
+    <script defer src="./js/main.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.12.0/validate.min.js"></script>
 </body>
 
 </html>

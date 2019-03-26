@@ -665,3 +665,77 @@ header {
     font-family: 'Slabo 27px', serif;
     font-style: italic;
 }
+
+/* ========================== */
+
+#contact {
+    width: 100%;
+}
+
+.c-carousel {
+    width: 1280px;
+    min-height: 200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.c-carousel__inner {
+    overflow: hidden;
+    height: 100%;
+    text-align: center;
+}
+
+.c-carousel__content {
+    display: inline-flex;
+    height: 100%;
+}
+
+.c-card {
+    width: 259px;
+    height: 250px;
+    flex-shrink: 0;
+    padding-right: 1rem;
+}
+
+.c-card__inner {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-carousel__buttons .c-carousel__button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%);
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -o-transform: translateY(50%);
+}
+
+.c-carousel__buttons .c-carousel__button.c-carousel--prev {
+    left: -2.5rem;
+}
+
+.c-carousel__buttons .c-carousel__button.c-carousel--next {
+    right: -2.5rem;
+}
