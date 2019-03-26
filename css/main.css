@@ -754,3 +754,12 @@ header {
 .h-hide {
     display: none;
 }
+
+
+/* ======================== */
+
+.c-footer__content {
+    padding: .4rem;
+    text-align: center;
+    font-size: .97rem;
+}
