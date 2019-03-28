@@ -757,6 +757,11 @@ header {
     cursor: pointer;
 }
 
+.c-carousel__buttons--dark .c-carousel__button {
+    background-color: #3A3836;
+    color: #E5E5E5 !important;
+}
+
 .c-carousel__buttons .c-carousel__button.c-carousel--prev {
     left: -2.5rem;
 }
@@ -964,4 +969,10 @@ header {
     width: 60%;
     height: 700px;
     margin-top: .5rem;
+}
+
+/* ======================== */
+
+.biografie {
+    font-size: 1.3rem;
 }
