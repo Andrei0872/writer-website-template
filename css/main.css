@@ -936,26 +936,32 @@ header {
 .c-video {
     width: 80%;
     min-height: 10rem;
+    max-height: 760px;
     margin: 0 auto;
     position: relative;
 }
 
 .c-video__slider {
     height: 100%;
-    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    transition: all .4s;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+    overflow: hidden;
 }
 
 .c-video__item {
     text-align: center;
     height: 100%;
-    display: none;
-}
-.h-show-video {
-    display: block;
+    width: 100%;
+    flex-shrink: 0;
 }
 
 .c-video__item--video {
-    width: 80%;
+    width: 76%;
     height: 700px;
     margin-top: .5rem;
 }

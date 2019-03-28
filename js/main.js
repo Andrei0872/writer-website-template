@@ -15,14 +15,30 @@
 
     const prevVideo = $(".js-prev-video");
     const nextVideo = $(".js-next-video");
-
+    const currentVideo = $(".js-video")
+    
     let currentIndex = 0;
 
-    nextVideo.addEventListener('click', () => {
+    const videos = [
+        'https://www.youtube.com/embed/rTuFRja0Bdc',
+        'https://www.youtube.com/embed/HnQPMYJNud8',
+        'https://www.youtube.com/embed/M-y5lmUls2g'
+    ]
 
+    nextVideo.addEventListener('click', () => {
+        currentIndex++;
+
+        currentIndex === videos.length && (currentIndex = 0)
+
+        currentVideo.src = videos[currentIndex]
+    }); 
+
+    prevVideo.addEventListener('click', () => {
+        currentIndex--;
+
+        currentIndex === -1 && (currentIndex = videos.length - 1)
+
+        currentVideo.src = videos[currentIndex]
     });
 
-    nextVideo.addEventListener('click', () => {
-
-    });
 })();
