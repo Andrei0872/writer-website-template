@@ -554,7 +554,7 @@ header {
     justify-content: center !important;
 }
 
-#services {
+.black-bg {
     background-color: #272522;
     color: #E5E5E5 !important;
 }
@@ -699,8 +699,8 @@ header {
 }
 
 .c-card {
-    width: 259px;
-    height: 250px;
+    width: 370px;
+    height: 450px;
     flex-shrink: 0;
     padding-right: 1rem;
     will-change: transform;
@@ -723,12 +723,13 @@ header {
 .c-card__inner {
     width: 100%;
     height: 100%;
-    border: 1px solid #ccc;
-    border-radius: 10px;
+    background-color: inherit;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    -o-border-radius: 10px; */
     padding: .5rem;
     display: flex;
     justify-content: center;
@@ -928,4 +929,10 @@ header {
     -o-border-radius: 50%;
     top: 8px;
     left: 0px;
+}
+
+/* =================== */
+
+.c-video {
+    /* padding: 1rem 0; */
 }
